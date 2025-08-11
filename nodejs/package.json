@@ -1,0 +1,23 @@
+{
+  "name": "dsql-connectivity-nodejs",
+  "version": "1.0.0",
+  "description": "Node.js DSQL connectivity experiment using PostgreSQL driver through SSH/SSM tunnel",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  },
+  "keywords": [
+    "dsql",
+    "postgresql",
+    "aws",
+    "connectivity",
+    "tunnel"
+  ],
+  "author": "Alvaro Reguly",
+  "license": "MIT"
+}

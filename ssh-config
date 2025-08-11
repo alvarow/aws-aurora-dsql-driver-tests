@@ -1,0 +1,7 @@
+# ~/.ssh/config:
+Host jumpbox
+  Hostname 10.0.0.2
+  LocalForward 127.0.0.1:5432 a-dsql-cluster-id.dsql-fnh4.us-east-1.on.aws:5432
+  Compression no
+  ServerAliveInterval 30
+  ServerAliveCountMax 3
